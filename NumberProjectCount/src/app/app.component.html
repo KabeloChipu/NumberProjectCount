@@ -1,0 +1,36 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center">
+  <h1>
+    Welcome to {{ title }}!
+  </h1>
+  <img width="300" alt="Angular Logo" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNTAgMjUwIj4KICAgIDxwYXRoIGZpbGw9IiNERDAwMzEiIGQ9Ik0xMjUgMzBMMzEuOSA2My4ybDE0LjIgMTIzLjFMMTI1IDIzMGw3OC45LTQzLjcgMTQuMi0xMjMuMXoiIC8+CiAgICA8cGF0aCBmaWxsPSIjQzMwMDJGIiBkPSJNMTI1IDMwdjIyLjItLjFWMjMwbDc4LjktNDMuNyAxNC4yLTEyMy4xTDEyNSAzMHoiIC8+CiAgICA8cGF0aCAgZmlsbD0iI0ZGRkZGRiIgZD0iTTEyNSA1Mi4xTDY2LjggMTgyLjZoMjEuN2wxMS43LTI5LjJoNDkuNGwxMS43IDI5LjJIMTgzTDEyNSA1Mi4xem0xNyA4My4zaC0zNGwxNy00MC45IDE3IDQwLjl6IiAvPgogIDwvc3ZnPg==">
+</div>
+<h2>Enter the alphabet and click the count: </h2>
+
+<input class="InputData" placeholder="num1" [(ngModel)] = "dataInput1"/><br>
+<input class="InputData" placeholder="num2" [(ngModel)] = "dataInput2"/><br>
+<input class="InputData" placeholder="num3" [(ngModel)] = "dataInput3"/><br>
+<input class="InputData" placeholder="num4" [(ngModel)] = "dataInput4"/><br>
+<input class="InputData" placeholder="num5" [(ngModel)] = "dataInput5"/><br>
+
+{{aCount}}
+
+<button (click) = "Avarage()">Average</button><br>
+Average number: {{Avg}}<br>
+
+<button (click) = "Highest()">Highest</button><br>
+highAlpha number: {{highAlpha}}<br>
+
+<button (click) = "Sum()">Sum</button><br>
+sum number: {{sum}}<br>
+
+Name<input class="InputData" placeholder="Enter Name" [(ngModel)] = "dataInput6"/><br>
+
+<button (click) = "Reverse()">Reverse</button><br>
+
+ReverseName:
+
+
+
+
+<!-- <route-outlet></route-outlet> -->
